@@ -13,6 +13,6 @@ public class TestServlet extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
 		System.out.println("this is my servlet");
-		arg0.getRequestDispatcher("/index.jsp").forward(arg0, arg1);;
+		arg0.getRequestDispatcher("/index.jsp").forward(arg0, arg1);
 	}
 }
